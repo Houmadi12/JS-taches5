@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Devinette</legend>
+                <h1>Trouver le bon nombre</h1>
+                <hr>
+                <p class="p1">
+                    Vous devez trouver un nombre entre 10 et 100. Vous n'avez que 
+                    <span class="span1"></span> essais.
+                </p>
+                <p class="p2">Entrez votre nombre <span class="span2"></span></p>
+                <label for="input">Votre choix :</label>
+                <input type="number" min="0" id="input" required>
+                <div>
+                    <button type="submit" id="btn">Essayer</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- Script JS -->
+    <script src="main.js"></script>
+</body>
+</html>
