@@ -57,11 +57,7 @@ document.write('</div>');
 // Afficher le nombre de valeurs du tableau en utilisant la méthode document.write
 document.write('<div class="container">');
 document.write('<h3 class="mt-3">6. Afficher le nombre de valeurs du tableau en utilisant la méthode document.write</h3>');
-let count = 0;
-for(let i=0; i<tableau.length; i++){
-    count++;
-}
-document.write('<p class="fs-3"> Le nombre de valeur est : '+count+'</p>');
+document.write('<p class="fs-3"> Le nombre de valeur est : '+tableau.length+'</p>');
 document.write('</div>');
 
 // Afficher la troisieme élément du tableau
